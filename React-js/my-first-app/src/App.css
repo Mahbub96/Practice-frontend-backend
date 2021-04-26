@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(226, 240, 240);
+}
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  display: block;
+  background-color: rgb(255, 255, 255);
+  width: 90%;
+  margin: 10px;
+  padding: 20px 10px;
+}
+#disp {
+  font-size: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#btn {
+  background-color: blueviolet;
+  color: azure;
+  width: 150px;
+  height: 60px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
